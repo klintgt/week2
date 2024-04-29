@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <li>
+        <label for="choco">image</label>
+        <input type="image" src="choco.jfif" height="100" width="100" alt="choco">
+    </li>
+    <form action="" method="post">
+        <fieldset>
+        <legend>personal information</legend>
+        <ul>
+            <li>
+                <label for="full name">full name</label>
+                <input type="text" name="full name" id="full name"> <title>enter your full name</title>
+                
+            </li>
+            <li>
+                <label for="email"> email address</label>
+                <input type="email" name="email address" id="email address"> <title>email address</title>
+            </li>
+            <li>
+                <label for="address"> address</label>
+                <input type="address" name="address" id="address"> <title> address </title>
+            </li>
+            <li>
+                <label for="DOB"> DOB</label>
+                <input type="DOB" name="" id="dob">
+            </li>
+            <li>
+                <span>state of origin</span>
+                <select name="state" id="">
+                    <optgroup><label for="North west"></label>
+                        <option value="kd">kaduna</option>
+                        <option value="kn">kano</option>
+                    </optgroup>
+
+                </select>
+                <label for=""></label>
+
+            </li>
+            <li>
+                <span>select gender</span> <br>
+                <input type="radio" name="gender" id="male"> 
+                <label for="maile">male</label>
+
+                <input type="radio" name="gender" id="female">
+                <label for="female"> female</label>
+            </li>
+        </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Guarantor information </legend>
+            <ul>
+                <li><label for="gname">guarantor name</label>
+                    <input type="text" name="gname" id="gname">
+                </li>
+                <li>
+                    <label for="phone number">phone number</label>
+                    <input type="tel" name="phone number" id="phone">
+                </li>
+                <li>
+                    <label for="number of kids">kids</label>
+                    <input type="number" name="number of kids" id="kids" min="1" max="10">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>other information</legend>
+            <ul>
+                <li>
+                    <span>means of identification</span> <br>
+                </li>
+                <li>
+                    <span>choose your courses</span> <br>
+
+                    <input type="checkbox" name="courses" id="h">
+                    <label for="h"> html</label>
+
+                    <input type="checkbox" name="courses" id="c">
+                    <label for="c">css</label>
+
+                    <input type="checkbox" name="courses" id="j">
+                    <label for="j">java</label>
+
+                    <input type="checkbox" name="courses" id="p">
+                    <label for="p">python</label>
+                </li>
+                <li>
+                    <label for="resume"> upload resume</label>
+                    <input type="file" name="file" id="resume">
+
+                    <label for="resume"> upload resume</label>
+                    <input type="file" name="file" id="resume" accept="jpeg/png" multiple>
+
+                    <input type="submit" value="submit information">
+                </li>
+                <li></li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
