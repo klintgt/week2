@@ -1,0 +1,28 @@
+.tradingcard{
+    padding-bottom: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 1px solid;
+    width: 400px;
+    list-style: none;
+    background: rgb(171, 127, 44);
+    color: rgb(239, 239, 239);
+}
+/*image*/
+.eaglepic{
+    align-items: center;
+    width: 370px;
+    height: 300px;
+    padding-bottom: 4rem;
+    border-radius: 3%;
+}
+body{
+    background: gray;
+    padding: 20px;
+    margin: 0px;
+    height: 100%;
+}
+.info{
+    font-style: oblique;
+    padding-bottom: 1rem;
+}

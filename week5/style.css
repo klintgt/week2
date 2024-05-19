@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/*CSS RESET STYLES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+
+/* HEADER STYLING */
+header{
+    background: #333;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.logo h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+nav a{
+    color: #f4f4f4;
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+    gap: 8rem;
+}
+
+/* HERO SECTION STYLING */
+.hero{
+    position: relative;
+    height: calc(100vh - 93px);
+    background: url(/images/homeroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f4f4f4;
+    gap: 4rem;
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.specialtext{
+    color: rgb(247, 192, 138);
+}
+.hero{
+    font-size: 5rem;
+    font-weight: 500;
+}
+.hero h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.hero p{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 45%;
+}
+.btn-dark{
+    color: #f4f4f4;
+    background-color: #333;
+    padding: 2rem 4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border-radius: 10%;
+    transition: all .5s;
+}
+.btn-dark:hover{
+    background-color: rgb(247, 192, 138);
+    color: #333;
+}

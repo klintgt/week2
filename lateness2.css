@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    font-weight: lighter;
+
+}
+
+h2{
+    color: blue;
+}
+h2+p{
+    color: tomato;
+    background-color: green;
+}
